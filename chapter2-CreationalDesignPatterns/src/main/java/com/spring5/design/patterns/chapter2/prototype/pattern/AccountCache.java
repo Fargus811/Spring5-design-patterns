@@ -1,8 +1,8 @@
 package com.spring5.design.patterns.chapter2.prototype.pattern;
 
-import com.spring5.design.patterns.chapter2.model.AccountType;
-import com.spring5.design.patterns.chapter2.prototype.pattern.model.Account;
 import com.spring5.design.patterns.chapter2.prototype.pattern.model.CurrentAccount;
+import com.spring5.design.patterns.chapter2.adapter.pattern.model.AccountType;
+import com.spring5.design.patterns.chapter2.prototype.pattern.model.Account;
 import com.spring5.design.patterns.chapter2.prototype.pattern.model.SavingAccount;
 
 import java.util.EnumMap;

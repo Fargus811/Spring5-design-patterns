@@ -1,7 +1,7 @@
 package com.spring5.design.patterns.chapter2.factory.pattern;
 
-import com.spring5.design.patterns.chapter2.model.Account;
-import com.spring5.design.patterns.chapter2.model.AccountType;
+import com.spring5.design.patterns.chapter2.adapter.pattern.model.Account;
+import com.spring5.design.patterns.chapter2.adapter.pattern.model.AccountType;
 
 public class FactoryPatternMain {
 

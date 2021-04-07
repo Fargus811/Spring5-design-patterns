@@ -1,6 +1,7 @@
 package com.spring5.design.patterns.chapter2.abstract_factory.pattern;
 
-import com.spring5.design.patterns.chapter2.model.*;
+import com.spring5.design.patterns.chapter2.adapter.pattern.model.*;
+import com.spring5.design.patterns.structural.adapter.pattern.model.*;
 
 public class BankFactory extends AbstractFactory {
 

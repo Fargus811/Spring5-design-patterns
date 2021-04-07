@@ -1,6 +1,6 @@
 package com.spring5.design.patterns.chapter2.abstract_factory.pattern;
 
-import com.spring5.design.patterns.chapter2.model.FactoryType;
+import com.spring5.design.patterns.chapter2.adapter.pattern.model.FactoryType;
 
 public class FactoryProducer {
 

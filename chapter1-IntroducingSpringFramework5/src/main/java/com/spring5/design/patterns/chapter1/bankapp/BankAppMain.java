@@ -16,7 +16,6 @@ public class BankAppMain {
         //Load Spring context
         ConfigurableApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         logger.info("Spring context loaded successfully");
-        org.springframework.beans.factory.config.ConfigurableListableBeanFactory beanFactory = applicationContext.getBeanFactory();
         //Use transfer method
         TransferService transferService = applicationContext.getBean(TransferService.class);
         transferService.transferAmount(100L, 200L, Amount.builder().balance(2000.0).build());
