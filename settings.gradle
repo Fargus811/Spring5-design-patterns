@@ -2,4 +2,5 @@ rootProject.name = 'spring5-design-patterns'
 include 'chapter1-IntroducingSpringFramework5'
 include 'chapter2-CreationalDesignPatterns'
 include 'chapter3-StructuralAndBehavioralDesignPatterns'
+include 'chapter4-DependencyInjection'
 
