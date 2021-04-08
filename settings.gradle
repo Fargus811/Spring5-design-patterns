@@ -3,4 +3,5 @@ include 'chapter1-IntroducingSpringFramework5'
 include 'chapter2-CreationalDesignPatterns'
 include 'chapter3-StructuralAndBehavioralDesignPatterns'
 include 'chapter4-DependencyInjection'
+include 'chapter5-FactoryBean'
 

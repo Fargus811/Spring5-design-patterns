@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.spring5.design.patterns'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation 'org.springframework:spring-core'
+    implementation 'org.springframework:spring-context'
+    implementation 'org.springframework:spring-beans'
+}
+
+test {
+    useJUnitPlatform()
+}
