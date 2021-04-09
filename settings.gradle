@@ -6,4 +6,5 @@ include 'chapter4-DependencyInjection'
 include 'chapter5-FactoryBean'
 include 'chapter5-LifeCycleBean'
 include 'chapter5-Custom-Scope-Bean'
+include 'chapter6-AOP'
 

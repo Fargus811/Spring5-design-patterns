@@ -4,8 +4,8 @@
        xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="transferService" class="com.spring5.factory.bean.bankapp.service.TransferService">
+    <bean id="transferService" class="com.spring5.factory.bean.com.spring5.life.cycle.TransferService">
         <constructor-arg ref="accountRepository"/>
     </bean>
-    <bean id="accountRepository" class="com.spring5.factory.bean.bankapp.repository.AccountRepositoryFactoryBean"/>
+    <bean id="accountRepository" class="com.spring5.factory.bean.com.spring5.life.cycle.bankapp.repository.AccountRepositoryFactoryBean"/>
 </beans>

@@ -7,13 +7,13 @@
         <property name="scopes">
             <map>
                 <entry key="myThreadScope">
-                    <bean class="com.spring5.custom.scope.bankapp.scope.MyThreadScope"/>
+                    <bean class="com.spring5.custom.scope.com.spring5.life.cycle.bankapp.scope.MyThreadScope"/>
                 </entry>
             </map>
         </property>
     </bean>
 
-    <bean id="myBean" class="com.spring5.custom.scope.bankapp.bean.MyBean" scope="myThreadScope">
+    <bean id="myBean" class="com.spring5.custom.scope.com.spring5.life.cycle.bankapp.bean.MyBean" scope="myThreadScope">
         <property name="name" value="Dinesh"></property>
     </bean>
 </beans>

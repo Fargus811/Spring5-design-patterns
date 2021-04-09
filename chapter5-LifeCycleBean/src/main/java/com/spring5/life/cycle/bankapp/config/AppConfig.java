@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.spring5.life.cycle.bankapp")
+@ComponentScan("com.spring5.life.cycle.com.spring5.life.cycle.bankapp")
 public class AppConfig {
 
     @Bean
