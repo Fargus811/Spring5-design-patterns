@@ -2,10 +2,12 @@ package com.spring5.custom.scope.bankapp.scope;
 
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.config.Scope;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class MyThreadScope implements Scope {
 
     private final ThreadLocal<Object> myThreadScope = new ThreadLocal<Object>() {

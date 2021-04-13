@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
 }
 
 group 'com.spring5.design.patterns'
@@ -7,6 +9,7 @@ version '0.0.1-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {

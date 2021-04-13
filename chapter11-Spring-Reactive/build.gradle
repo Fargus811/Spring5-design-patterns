@@ -1,9 +1,12 @@
 plugins {
     id 'java'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
 }
 
 group 'com.spring5.design.patterns'
 version '0.0.1-SNAPSHOT'
+
 
 repositories {
     mavenCentral()
@@ -14,13 +17,13 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-autoconfigure
-    implementation group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '2.3.7.RELEASE'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-autoconfigure'
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-webflux
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '2.3.9.RELEASE'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux'
 
     // https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
-    implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    implementation group: 'javax.persistence', name: 'javax.persistence-api'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework:spring-context'
